@@ -1,4 +1,6 @@
-The **systemtruststores** project tracks efforts to make programming languages work with TLS certificates from your operating system's native truststore.
+# System Trust Stores
+
+A survey of the many efforts to make programming languages work with TLS certificates from your operating system's native truststore.
 
 If you've ever encountered a TLS error like this:
 
@@ -53,7 +55,3 @@ The following languages require you to install a **library** that connects to th
 | Node     | [node-native-certs](https://github.com/bnoordhuis/node-native-certs) | Work In Progress |
 | Python   | [truststore](https://github.com/sethmlarson/truststore)              | Work In Progress |
 | Rust     | [rustls-native-certs](https://github.com/rustls/rustls-native-certs) | Stable           |
-
-## Help improve this site
-
-Don't see your favourite language in the lists above? Want to change something in the guides? You can help to improve this site by opening an Issue or Pull Request on GitHub: [systemtruststores/systemtruststores.github.io](https://github.com/systemtruststores/systemtruststores.github.io/).
